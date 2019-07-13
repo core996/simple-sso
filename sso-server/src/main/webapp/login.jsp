@@ -29,7 +29,7 @@
 ${error}
 <form action="login.servlet">
     <input name="username"><br>
-    <input id="redirect_url" name="redirect_url" >
+    <input id="redirect_url" name="redirect_url" type="hidden">
     <button type="submit"> 登录</button>
 </form>
 </body>
